@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date & Time</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .main{
+            height: 100vh;
+            width: 100vw;
+            background-color: red;
+            display: grid;
+            place-items: center;
+           
+
+        }
+        .container{
+            height: 200px;
+            width: 500px;
+            background-color: blue;
+            justify-content: center;
+            /* margin: auto; */
+            
+
+
+        }
+        h2{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            margin: 30px;
+            
+
+
+        }
+        #btn{
+            
+
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+    <h2>
+      First Javascript Use
+    </h2>
+    <button id="btn" onclick="dateTime()">click me to display Date and time</button>
+    
+    <p id="demo"></p></div></div>
+    <script>
+        function dateTime(){
+            document.getElementById("demo").innerHTML=Date();
+            
+
+        }
+    </script>
+</body>
+</html>
